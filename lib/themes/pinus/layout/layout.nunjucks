@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
-  <title>{{ page.title if page.title else 'Pandora.js' }} - {{ __('index.slogan') }}</title>
+  <title>{{ page.title if page.title else 'Pinus' }} - {{ __('index.slogan') }}</title>
   <meta charset="utf-8">
   <meta name="description" content="{{ __('index.description') }}">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">

@@ -1,11 +1,11 @@
-title: Pandora.js
+title: Pinus
 subtitle: "A powerful and lightweight application manager for Node.js applications powered by TypeScript."
 description: "A powerful and lightweight application manager for Node.js applications powered by TypeScript."
 language:
 - zh-cn
 - en
 timezone: UTC
-url: https://midwayjs.org
+url: https://pinus.io
 root: /
 archive_dir: news
 permalink: news/:year/:month/:day/:title/
@@ -15,7 +15,7 @@ highlight:
   enable: true
   line_number: false
 per_page: 0
-theme: pandora
+theme: pinus
 
 less:
   compress: true

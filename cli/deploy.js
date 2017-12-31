@@ -9,7 +9,7 @@ const ghpages = require('gh-pages');
 // The branch that pushing document
 const BRANCH = 'gh-pages';
 const DOC_PUBLISHER_NAME = 'Auto Doc Publisher';
-const DOC_PUBLISHER_EMAIL = 'docs@midwayjs.org';
+const DOC_PUBLISHER_EMAIL = 'docs@pinus.io';
 
 exports.command = 'deploy';
 exports.desc = 'deploy to github gh-pages';

@@ -1,9 +1,9 @@
 {
-  "_from": "pandora-site-tools@^1.0.0",
-  "_id": "pandora-site-tools@1.0.4",
+  "_from": "pinus-site-tools@^1.0.0",
+  "_id": "pinus-site-tools@1.0.4",
   "_inBundle": false,
   "_integrity": "sha1-yONyPqFEtv8aX+9ztZ6/vHjV68o=",
-  "_location": "/pandora-site-tools",
+  "_location": "/pinus-site-tools",
   "_phantomChildren": {
     "code-point-at": "1.1.0",
     "decamelize": "1.2.0",
@@ -23,9 +23,9 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "pandora-site-tools@^1.0.0",
-    "name": "pandora-site-tools",
-    "escapedName": "pandora-site-tools",
+    "raw": "pinus-site-tools@^1.0.0",
+    "name": "pinus-site-tools",
+    "escapedName": "pinus-site-tools",
     "rawSpec": "^1.0.0",
     "saveSpec": null,
     "fetchSpec": "^1.0.0"
@@ -33,15 +33,15 @@
   "_requiredBy": [
     "#DEV:/"
   ],
-  "_resolved": "https://registry.npmjs.org/pandora-site-tools/-/pandora-site-tools-1.0.4.tgz",
+  "_resolved": "https://registry.npmjs.org/pinus-site-tools/-/pinus-site-tools-1.0.4.tgz",
   "_shasum": "c8e3723ea144b6ff1a5fef73b59ebfbc78d5ebca",
-  "_spec": "pandora-site-tools@^1.0.0",
-  "_where": "C:\\src\\pandora",
+  "_spec": "pinus-site-tools@^1.0.0",
+  "_where": "C:\\src\\pinus",
   "bin": {
     "pt": "bin/index.js"
   },
   "bugs": {
-    "url": "https://github.com/midwayjs/pandora-site-tools/issues"
+    "url": "https://github.com/node-pinus/pinus-site-tools/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -67,7 +67,7 @@
     "zlogger": "^1.1.0"
   },
   "deprecated": false,
-  "description": "Site builder for Pandora.js",
+  "description": "Site builder for Pinus",
   "devDependencies": {
     "co-mocha": "^1.2.1",
     "coffee": "^4.1.0",
@@ -77,13 +77,13 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "homepage": "https://github.com/midwayjs/pandora-site-tools#readme",
+  "homepage": "https://github.com/node-pinus/pinus-site-tools#readme",
   "license": "MIT",
   "main": "index.js",
-  "name": "pandora-site-tools",
+  "name": "pinus-site-tools",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/midwayjs/pandora-site-tools.git"
+    "url": "git+ssh://git@github.com/node-pinus/pinus-site-tools.git"
   },
   "scripts": {
     "test": "mocha **/*.test.js --exit"
