@@ -11,6 +11,16 @@ const BRANCH = 'gh-pages';
 const DOC_PUBLISHER_NAME = 'Auto Doc Publisher';
 const DOC_PUBLISHER_EMAIL = 'docs@pinus.io';
 
+// 捕获普通异常
+process.on('uncaughtException', function (err)
+{
+    console.error('Caught exception: ' + err.stack);
+});
+
+// 捕获async异常
+process.on('unhandledRejection', (reason, p) => {
+    console.error('Caught Unhandled Rejection at:' + p + 'reason:' + reason.stack);
+});
 exports.command = 'deploy';
 exports.desc = 'deploy to github gh-pages';
 

@@ -1,6 +1,6 @@
 {
   "bin": {
-    "pt": "bin/index.js"
+    "pst": "bin/index.js"
   },
   "bugs": {
     "url": "https://github.com/node-pinus/pinus-site-tools/issues"
@@ -50,5 +50,5 @@
   "scripts": {
     "test": "mocha **/*.test.js --exit"
   },
-  "version": "1.0.0"
+  "version": "1.0.5"
 }

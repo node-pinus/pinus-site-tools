@@ -3,8 +3,8 @@
     <div class="banner-info leftpadding">
       <h1>
       <p style="font-weight:bold;font-size:48px;">Pinus</p>
-      <p style="font-weight:bold;font-size:48px;">Ready to boot</p>
-      A powerful and lightweight application manager for Node.js applications</h1>
+      <p style="font-weight:bold;font-size:48px;">让做游戏变得更简单</p>
+      一个基于Node.js的分布式水平扩展游戏服务器轻量级强大框架 powered by TypeScript.</h1>
       <p class="banner-button">
         <a class="btn btn-primary" href="{{ index_link('/quickstart.html') }}">{{ __('index.getstart') }}</a>
         <a class="btn btn-secondary" href="https://github.com/node-pinus/pinus" target="_blank" >GitHub</a>
